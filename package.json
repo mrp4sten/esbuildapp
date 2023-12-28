@@ -9,8 +9,12 @@
   "keywords": [],
   "author": "Mauricio Pasten",
   "license": "MIT",
+  "eslintConfig": {
+    "extends": "./node_modules/eslint-config-standard-jsx/eslintrc.json"
+  },
   "devDependencies": {
-    "esbuild": "0.19.10"
+    "esbuild": "0.19.10",
+    "standard": "^17.1.0"
   },
   "dependencies": {
     "react": "^18.2.0",
