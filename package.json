@@ -1,0 +1,15 @@
+{
+  "name": "esbuildapp",
+  "version": "1.0.0",
+  "description": "esbuild app to learn about Builders using esbuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mauricio Pasten",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "0.19.10"
+  }
+}
