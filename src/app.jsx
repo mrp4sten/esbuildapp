@@ -1,6 +1,12 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 
-const App = () => <div>Hello world</div>
+import Generator from './Generator'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+const App = () => {
+  return (<Generator />)
+}
+
+const container = document.getElementById('root')
+const root = createRoot(container)
+root.render(<App />)
