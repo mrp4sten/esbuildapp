@@ -4,7 +4,8 @@
   "description": "esbuild app to learn about Builders using esbuild",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node browser-builder.js",
+    "clean": "rm -rf src/public/dist/"
   },
   "keywords": [],
   "author": "Mauricio Pasten",
